@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>VLRMS</title>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <a href="index.html">
+            <img src="img/coat-of-arms.png"    alt="Barbados Coat of Arms" align="left" style="display: inline"><br>
+        </a>
+            <div class="toptxt">
+            <h2>Barbados Revenue Authority</h2>
+            <h3>Vehicle Licensing and Registration System</h3>
+            <br>
+            <h2>Account Registeration</h2>
+            <h4>All fields required</h4>
+        </div>
+
+        <div class="form">
+            <form id="login_form">
+                <div class="container" id="container">
+                    National ID <input type="text" id="nID" name="nID" required>
+                    <span id="nIDErr"> </span>
+                    <br><br>
+                    License No. <input type="text" id="license" name="license" required>
+                    <span id="licenseErr"> </span>
+                    <br><br>    
+                    First Name <input type="text" id="fName" name="fName" required>
+                    <span id="fNameErr"> </span>
+                    <br><br>
+                    Last Name <input type="text" id="lName" name="lName" required>
+                    <span id="lNameErr"> </span>
+                    <br><br>
+                    Address 1 <input type="text" id="add1" name="add1" required>
+                    <span id="add1Err"> </span>
+                    <br><br>
+                    Address 2 <input type="text" id="add2" name="add2" required>
+                    <span id="add2Err">  </span>
+                    <br><br>
+                    Parish <select name="Parishes" id="Parishes">
+                        <option value="St.Lucy">St.Lucy</option>
+                        <option value="St.Peter">St.Peter</option>
+                        <option value="St.Andrew">St.Andrew</option>
+                        <option value="St.James">St.James</option>
+                        <option value="St.Joseph">St.Joseph</option>
+                        <option value="St.George">St.George</option>
+                        <option value="St.Thomas">St.Thomas</option>
+                        <option value="St.John">St.John</option>
+                        <option value="St.Michael">St.Michael</option>
+                        <option value="St.Philip">St.Philip</option>
+                        <option value="Christ Church">Christ Church</option>
+                    </select>
+                    <br><br>
+
+                    <input type="button" value="Register" onclick="newDriver();"> 
+                    <input type="button" value="Cancel" >
+                    
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>

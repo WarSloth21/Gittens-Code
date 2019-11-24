@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>VLRMS</title>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body onload="loadData()">
+    <div class="wrapper">
+            <img src="img/coat-of-arms.png" alt="Barbados Coat of Arms" align="left" style="display: inline; padding-left: 50px"><br>
+        <div class="toptxt">
+            
+            <h2>Barbados Revenue Authority</h2>
+            <h3>Vehicle Licensing and Registration System</h3>
+            <br>
+            <h2>Driver Sign In</h2>
+        </div>
+
+        <div class="form">
+            <form action=" ">
+                <div class="container" id="container">
+                    Username <input type="text" id="username" placeholder="username" name="username">
+                    <span id="usernameErr">  </span>
+                    <br><br>
+                    Password <input type="password" id="psw" placeholder="******" name="password"  >
+                    <span id="passwordErr"> </span>
+                    <br><br>
+                    
+                    <input type="button" value="Sign In" onclick="validateUser();">
+                    
+                    <br><br>
+                    <a href="#">Forgot Password</a>
+                    <a href="/assign2/registeration.html">Sign Up</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body> 

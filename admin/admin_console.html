@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assign2/console.css">
+    <title>Console</title>
+    <script type="text/javascript" src="/assign2/js/login.js"></script>
+</head>
+
+
+<body onload="checkAdStatus()">
+    <div class="wrapper">
+        <div class="toptxt">
+            <div class="dropdown">
+                <button onclick="dropDownMenu()" class="dropbtn">
+                  <div class="menuicon"> </div>
+                  <div class="menuicon"> </div>
+                  <div class="menuicon"> </div>
+                </button>
+
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="javascript:void(0)" onclick="adLogOut()">Log Out</a>
+                </div>
+            </div>
+            <img src="/assign2/img/coat-of-arms.png" alt="Barbados Coat of Arms" align="left" style="display: inline; padding-left: 50px"><br>
+            <div class="toptxt">
+                
+            <h2>Barbados Revenue Authority</h2>
+            <h3>Vehicle Licensing and Registration System</h3>
+            
+        </div>
+
+        <div class="head">
+            <div class="left">
+                <h3>Employee: <span id="emplyName"> </span> </h3>
+            </div>
+            <div class="right">
+                <h3>Employee ID.: 1456</h3>
+            </div>
+        </div><br><br><br><br><br><br>
+
+        <table align="center">
+            <tr>
+                <td>
+                    <a href="#">
+                        <div class="column1">
+                            <h4>New Drivers</h4>
+                        </div>
+                    </a>
+                </td>
+
+                <td>
+                    <a href="#">
+                        <div class="column">
+                            <h4>Registered</h4>
+                            <h4>Drivers</h4>
+                        </div>
+                    </a> 
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="#">
+                        <div class="column1">
+                            <h4>New Vehicles</h4>
+                        </div>
+                    </a> 
+                </td>
+
+                <td>
+                    <a href="#">
+                        <div class="column">
+                            <h4>Registered </h4>
+                            <h4>Vehicles</h4>
+                        </div>
+                    </a> 
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
